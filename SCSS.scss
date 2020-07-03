@@ -1,0 +1,20 @@
+$primary-color: lightblue;
+$secondary-color: white;
+$third-color: brown;
+
+%menu-default{
+  color: $secondary-color;
+}
+body {
+
+  background-color: $primary-color;
+}
+
+div{
+  background-color: $secondary-color;
+  a {
+    font-size: 30px;
+    font-weight: bold;
+    @extend %menu-default;
+  }
+}

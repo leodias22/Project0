@@ -1,0 +1,17 @@
+div a {
+  color: white;
+}
+
+body {
+  background-color: lightblue;
+}
+
+div {
+  background-color: white;
+}
+div a {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=scss.css.map */
